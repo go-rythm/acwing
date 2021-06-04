@@ -27,9 +27,4 @@ func main() {
 		}
 	}
 	fmt.Println(max)
-	for i, j := 0, 0; i < n; i++ {
-		for j < i && check(i, j) {
-			j++
-		}
-	}
 }
