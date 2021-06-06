@@ -46,3 +46,20 @@
 
  ![bit](README/bit.png)
 
+```go
+package main
+
+import (
+	"fmt"
+	"unsafe"
+)
+
+func main() {
+	a := int8(-10)
+	fmt.Printf("%b\n", *(*[1]byte)(unsafe.Pointer(&a)))
+}
+
+// Output:
+// [11110110]
+```
+
