@@ -1,0 +1,54 @@
+## [3061. IIIDX](https://www.acwing.com/problem/content/3064/)
+
+### 题目
+
+Osu 听过没？
+
+那是 Konano 最喜欢的一款音乐游戏，而他的梦想就是有一天自己也能做个独特酷炫的音乐游戏。
+
+现在，他在世界知名游戏公司 KONMAI 内工作，离他的梦想也越来越近了。
+
+这款音乐游戏内一般都包含了许多歌曲，歌曲越多，玩家越不易玩腻。
+
+同时，为了使玩家在游戏上氪更多的金钱花更多的时间，游戏一开始一般都不会将所有曲目公开，有些曲目你需要通关某首特定歌曲才会解锁，而且越晚解锁的曲目难度越高。
+
+这一天，Konano 接到了一个任务，他需要给正在制作中的游戏《IIIDX》安排曲目的解锁顺序。
+
+游戏内共有 *n* 首曲目，每首曲目都会有一个难度 *d*，游戏内第 *i* 首曲目会在玩家 Pass 第 *leftlfloor frac i k rightrfloor* 首曲目后解锁（*leftlfloor x rightrfloor* 为下取整符号）若 *leftlfloor frac i k rightrfloor = 0*，则说明这首曲目 **无需解锁**。
+
+举个例子：当 *k = 2* 时，第 *1* 首曲目是无需解锁的（*leftlfloor frac 12 rightrfloor = 0*），第 *7* 首曲目需要玩家 Pass 第 *leftlfloor frac 72 rightrfloor = 3* 首曲目才会被解锁。
+
+Konano 的工作，便是安排这些曲目的顺序，使得每次解锁出的曲子的难度 **不低于** 作为条件需要玩家通关的曲子的难度，即使得确定顺序后的曲目的难度对于每个 *i* 满足 *d_i ≥ d_{leftlfloor frac ik rightrfloor}*。
+
+当然这难不倒曾经在信息学竞赛摸鱼许久的 Konano。
+
+那假如是你，你会怎么解决这份任务呢？
+
+### 输入格式
+
+第 *1* 行 *1* 个正整数 *n* 和 *1* 个小数 *k,n* 表示曲目数量，*k* 其含义如题所示。
+
+第 *2* 行 *n* 个用空格隔开的正整数 *d*，表示这 *n* 首曲目的难度。
+
+### 输出格式
+
+输出 *1* 行 *n* 个整数，按顺序输出安排完曲目顺序后第 *i* 首曲目的难度。
+
+若有多解，则输出 *d_1* **最大** 的；若仍有多解，则输出 *d_2* **最大** 的，以此类推。
+
+### 数据范围
+
+测试点编号*n**k**d*特殊限制*1**1 leq n leq 10**k=2**1 leq d leq 100*保证 *d_i* 互不相同*2**1 leq n leq 10**k=3**1 leq d leq 100*保证 *d_i* 互不相同*3**1 leq n leq 10**k=1.1**1 leq d leq 100*保证 *d_i* 互不相同*4**1 leq n leq 10**k=n**1 leq d leq 100*保证 *d_i* 互不相同*5**1 leq n leq 10**1 < k leq 100**1 leq d leq 100*保证 *d_i* 互不相同*6**1 leq n leq 10**1 < k leq 100**1 leq d leq 100*保证 *d_i* 互不相同*7**1leq nleq 2000**k=2**1leq dleq 10^9*保证 *d_i* 互不相同*8**1leq nleq 2000**k=2**1leq dleq 10^9*无*9**1leq nleq 2000**k=3**1leq dleq 10^9*保证 *d_i* 互不相同*10**1leq nleq 2000**k=3**1leq dleq 10^9*无*11**1leq nleq 2000**1 < k leq 10^9**1leq dleq 10^9*保证 *d_i* 互不相同*12**1leq nleq 2000**1 < k leq 10^9**1leq dleq 10^9*无*13**1leq nleq 500000**k=2**1leq dleq 10^9*无*14**1leq nleq 500000**k=3**1leq dleq 10^9*无*15**1leq nleq 500000**1 < kleq 10^9**1leq dleq 10^9*保证 *d_i* 互不相同*16**1leq nleq 500000**1 < kleq 10^9**1leq dleq 10^9*保证 *d_i* 互不相同*17**1leq nleq 500000**1 < kleq 10^9**1leq dleq 10^9*无*18**1leq nleq 500000**1 < kleq 10^9**1leq dleq 10^9*无*19**1leq nleq 500000**1 < kleq 10^9**1leq dleq 10^9*无*20**1leq nleq 500000**1 < kleq 10^9**1leq dleq 10^9*无
+
+### 输入样例：
+
+```
+4 2.0
+114 514 1919 810
+```
+
+### 输出样例：
+
+```
+114 810 514 1919
+```
