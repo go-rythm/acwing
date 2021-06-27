@@ -2,7 +2,7 @@
 
 **acwing.com solutions in golang**
 
-| #    | 题目                           | 题解                                                         | 通过率  | 难度 |
+| #           | 题目                                                       | 题解          | 通过率       | 难度        |
 | --------------- | --------------------------------------------- | --------------- | --------------- | --------------- |
 | 0001 | A+B                            | [Go](https://github.com/luxcgo/go-acwing/tree/master/problems/0001.%20A+B) | 64.23%  | 简单 |
 | 0002 | 01背包问题                     | [Go](https://github.com/luxcgo/go-acwing/tree/master/problems/0002.%2001背包问题) | 59.17%  | 简单 |
