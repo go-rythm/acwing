@@ -1,4 +1,4 @@
-## [900. 整数划分](https://www.acwing.com/problem/content/902/)
+## [900. 整数划分](https://www.acwing.com/problem/content/solution/902/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

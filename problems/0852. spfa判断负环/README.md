@@ -1,4 +1,4 @@
-## [852. spfa判断负环](https://www.acwing.com/problem/content/854/)
+## [852. spfa判断负环](https://www.acwing.com/problem/content/solution/854/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

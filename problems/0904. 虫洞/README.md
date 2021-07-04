@@ -1,4 +1,4 @@
-## [904. 虫洞](https://www.acwing.com/problem/content/906/)
+## [904. 虫洞](https://www.acwing.com/problem/content/solution/906/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

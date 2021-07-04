@@ -1,4 +1,4 @@
-## [883. 高斯消元解线性方程组](https://www.acwing.com/problem/content/885/)
+## [883. 高斯消元解线性方程组](https://www.acwing.com/problem/content/solution/885/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

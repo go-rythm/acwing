@@ -1,4 +1,4 @@
-## [1175. 最大半连通子图](https://www.acwing.com/problem/content/1177/)
+## [1175. 最大半连通子图](https://www.acwing.com/problem/content/solution/1177/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

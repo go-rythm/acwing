@@ -1,4 +1,4 @@
-## [886. 求组合数II](https://www.acwing.com/problem/content/888/)
+## [886. 求组合数II](https://www.acwing.com/problem/content/solution/888/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

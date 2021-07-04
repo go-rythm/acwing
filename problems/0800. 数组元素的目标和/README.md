@@ -1,4 +1,4 @@
-## [800. 数组元素的目标和](https://www.acwing.com/problem/content/802/)
+## [800. 数组元素的目标和](https://www.acwing.com/problem/content/solution/802/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

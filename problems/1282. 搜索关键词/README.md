@@ -1,4 +1,4 @@
-## [1282. 搜索关键词](https://www.acwing.com/problem/content/1284/)
+## [1282. 搜索关键词](https://www.acwing.com/problem/content/solution/1284/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

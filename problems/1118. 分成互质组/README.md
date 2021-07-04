@@ -1,4 +1,4 @@
-## [1118. 分成互质组](https://www.acwing.com/problem/content/1120/)
+## [1118. 分成互质组](https://www.acwing.com/problem/content/solution/1120/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

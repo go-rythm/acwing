@@ -1,4 +1,4 @@
-## [1085. 不要62](https://www.acwing.com/problem/content/1087/)
+## [1085. 不要62](https://www.acwing.com/problem/content/solution/1087/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

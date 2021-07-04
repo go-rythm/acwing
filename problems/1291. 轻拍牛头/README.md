@@ -1,4 +1,4 @@
-## [1291. 轻拍牛头](https://www.acwing.com/problem/content/1293/)
+## [1291. 轻拍牛头](https://www.acwing.com/problem/content/solution/1293/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

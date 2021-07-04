@@ -1,4 +1,4 @@
-## [866. 试除法判定质数](https://www.acwing.com/problem/content/868/)
+## [866. 试除法判定质数](https://www.acwing.com/problem/content/solution/868/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

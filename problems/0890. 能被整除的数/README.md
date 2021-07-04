@@ -1,4 +1,4 @@
-## [890. 能被整除的数](https://www.acwing.com/problem/content/892/)
+## [890. 能被整除的数](https://www.acwing.com/problem/content/solution/892/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

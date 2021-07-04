@@ -1,4 +1,4 @@
-## [1083. Windy数](https://www.acwing.com/problem/content/1085/)
+## [1083. Windy数](https://www.acwing.com/problem/content/solution/1085/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1298. 曹冲养猪](https://www.acwing.com/problem/content/1300/)
+## [1298. 曹冲养猪](https://www.acwing.com/problem/content/solution/1300/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

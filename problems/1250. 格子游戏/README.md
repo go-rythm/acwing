@@ -1,4 +1,4 @@
-## [1250. 格子游戏](https://www.acwing.com/problem/content/1252/)
+## [1250. 格子游戏](https://www.acwing.com/problem/content/solution/1252/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

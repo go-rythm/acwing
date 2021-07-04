@@ -1,4 +1,4 @@
-## [1088. 旅行问题](https://www.acwing.com/problem/content/1090/)
+## [1088. 旅行问题](https://www.acwing.com/problem/content/solution/1090/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

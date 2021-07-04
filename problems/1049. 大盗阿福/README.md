@@ -1,4 +1,4 @@
-## [1049. 大盗阿福](https://www.acwing.com/problem/content/1051/)
+## [1049. 大盗阿福](https://www.acwing.com/problem/content/solution/1051/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

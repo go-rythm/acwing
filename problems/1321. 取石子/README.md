@@ -1,4 +1,4 @@
-## [1321. 取石子](https://www.acwing.com/problem/content/1323/)
+## [1321. 取石子](https://www.acwing.com/problem/content/solution/1323/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

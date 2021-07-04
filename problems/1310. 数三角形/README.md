@@ -1,4 +1,4 @@
-## [1310. 数三角形](https://www.acwing.com/problem/content/1312/)
+## [1310. 数三角形](https://www.acwing.com/problem/content/solution/1312/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

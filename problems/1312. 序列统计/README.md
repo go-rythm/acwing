@@ -1,4 +1,4 @@
-## [1312. 序列统计](https://www.acwing.com/problem/content/1314/)
+## [1312. 序列统计](https://www.acwing.com/problem/content/solution/1314/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

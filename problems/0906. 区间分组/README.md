@@ -1,4 +1,4 @@
-## [906. 区间分组](https://www.acwing.com/problem/content/908/)
+## [906. 区间分组](https://www.acwing.com/problem/content/solution/908/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

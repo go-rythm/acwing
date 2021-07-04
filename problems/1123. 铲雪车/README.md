@@ -1,4 +1,4 @@
-## [1123. 铲雪车](https://www.acwing.com/problem/content/1125/)
+## [1123. 铲雪车](https://www.acwing.com/problem/content/solution/1125/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

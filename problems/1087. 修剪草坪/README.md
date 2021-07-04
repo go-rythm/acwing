@@ -1,4 +1,4 @@
-## [1087. 修剪草坪](https://www.acwing.com/problem/content/1089/)
+## [1087. 修剪草坪](https://www.acwing.com/problem/content/solution/1089/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1307. 牡牛和牝牛](https://www.acwing.com/problem/content/1309/)
+## [1307. 牡牛和牝牛](https://www.acwing.com/problem/content/solution/1309/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

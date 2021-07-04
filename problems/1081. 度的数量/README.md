@@ -1,4 +1,4 @@
-## [1081. 度的数量](https://www.acwing.com/problem/content/1083/)
+## [1081. 度的数量](https://www.acwing.com/problem/content/solution/1083/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

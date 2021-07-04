@@ -1,4 +1,4 @@
-## [1170. 排队布局](https://www.acwing.com/problem/content/1172/)
+## [1170. 排队布局](https://www.acwing.com/problem/content/solution/1172/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

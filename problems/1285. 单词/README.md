@@ -1,4 +1,4 @@
-## [1285. 单词](https://www.acwing.com/problem/content/1287/)
+## [1285. 单词](https://www.acwing.com/problem/content/solution/1287/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

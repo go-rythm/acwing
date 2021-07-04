@@ -1,4 +1,4 @@
-## [1091. 理想的正方形](https://www.acwing.com/problem/content/1093/)
+## [1091. 理想的正方形](https://www.acwing.com/problem/content/solution/1093/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

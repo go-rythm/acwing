@@ -1,4 +1,4 @@
-## [1077. 皇宫看守](https://www.acwing.com/problem/content/1079/)
+## [1077. 皇宫看守](https://www.acwing.com/problem/content/solution/1079/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

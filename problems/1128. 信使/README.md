@@ -1,4 +1,4 @@
-## [1128. 信使](https://www.acwing.com/problem/content/1130/)
+## [1128. 信使](https://www.acwing.com/problem/content/solution/1130/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

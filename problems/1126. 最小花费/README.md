@@ -1,4 +1,4 @@
-## [1126. 最小花费](https://www.acwing.com/problem/content/1128/)
+## [1126. 最小花费](https://www.acwing.com/problem/content/solution/1128/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1018. 最低通行费](https://www.acwing.com/problem/content/1020/)
+## [1018. 最低通行费](https://www.acwing.com/problem/content/solution/1020/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

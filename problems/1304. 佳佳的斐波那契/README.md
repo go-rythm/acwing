@@ -1,4 +1,4 @@
-## [1304. 佳佳的斐波那契](https://www.acwing.com/problem/content/1306/)
+## [1304. 佳佳的斐波那契](https://www.acwing.com/problem/content/solution/1306/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

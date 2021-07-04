@@ -1,4 +1,4 @@
-## [870. 约数个数](https://www.acwing.com/problem/content/872/)
+## [870. 约数个数](https://www.acwing.com/problem/content/solution/872/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

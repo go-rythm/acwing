@@ -1,4 +1,4 @@
-## [1074. 二叉苹果树](https://www.acwing.com/problem/content/1076/)
+## [1074. 二叉苹果树](https://www.acwing.com/problem/content/solution/1076/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

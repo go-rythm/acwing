@@ -1,4 +1,4 @@
-## [1183. 电力](https://www.acwing.com/problem/content/1185/)
+## [1183. 电力](https://www.acwing.com/problem/content/solution/1185/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

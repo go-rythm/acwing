@@ -1,4 +1,4 @@
-## [1275. 最大数](https://www.acwing.com/problem/content/1277/)
+## [1275. 最大数](https://www.acwing.com/problem/content/solution/1277/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

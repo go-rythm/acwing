@@ -1,4 +1,4 @@
-## [1322. 取石子游戏](https://www.acwing.com/problem/content/1324/)
+## [1322. 取石子游戏](https://www.acwing.com/problem/content/solution/1324/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

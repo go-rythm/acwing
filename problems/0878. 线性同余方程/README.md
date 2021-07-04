@@ -1,4 +1,4 @@
-## [878. 线性同余方程](https://www.acwing.com/problem/content/880/)
+## [878. 线性同余方程](https://www.acwing.com/problem/content/solution/880/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

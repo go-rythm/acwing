@@ -1,4 +1,4 @@
-## [1273. 天才的记忆](https://www.acwing.com/problem/content/1275/)
+## [1273. 天才的记忆](https://www.acwing.com/problem/content/solution/1275/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1292. 哥德巴赫猜想](https://www.acwing.com/problem/content/1294/)
+## [1292. 哥德巴赫猜想](https://www.acwing.com/problem/content/solution/1294/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

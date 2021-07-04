@@ -1,4 +1,4 @@
-## [1305. GT考试](https://www.acwing.com/problem/content/1307/)
+## [1305. GT考试](https://www.acwing.com/problem/content/solution/1307/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

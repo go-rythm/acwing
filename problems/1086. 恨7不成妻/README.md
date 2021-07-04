@@ -1,4 +1,4 @@
-## [1086. 恨7不成妻](https://www.acwing.com/problem/content/1088/)
+## [1086. 恨7不成妻](https://www.acwing.com/problem/content/solution/1088/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

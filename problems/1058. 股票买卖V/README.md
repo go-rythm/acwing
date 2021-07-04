@@ -1,4 +1,4 @@
-## [1058. 股票买卖V](https://www.acwing.com/problem/content/1060/)
+## [1058. 股票买卖V](https://www.acwing.com/problem/content/solution/1060/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

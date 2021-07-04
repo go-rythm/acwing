@@ -1,4 +1,4 @@
-## [889. 满足条件的01序列](https://www.acwing.com/problem/content/891/)
+## [889. 满足条件的01序列](https://www.acwing.com/problem/content/solution/891/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

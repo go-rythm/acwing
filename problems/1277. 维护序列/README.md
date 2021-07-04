@@ -1,4 +1,4 @@
-## [1277. 维护序列](https://www.acwing.com/problem/content/1279/)
+## [1277. 维护序列](https://www.acwing.com/problem/content/solution/1279/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

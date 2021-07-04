@@ -1,4 +1,4 @@
-## [1144. 连接格点](https://www.acwing.com/problem/content/1146/)
+## [1144. 连接格点](https://www.acwing.com/problem/content/solution/1146/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

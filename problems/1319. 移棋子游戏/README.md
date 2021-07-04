@@ -1,4 +1,4 @@
-## [1319. 移棋子游戏](https://www.acwing.com/problem/content/1321/)
+## [1319. 移棋子游戏](https://www.acwing.com/problem/content/solution/1321/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

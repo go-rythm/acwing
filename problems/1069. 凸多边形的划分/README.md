@@ -1,4 +1,4 @@
-## [1069. 凸多边形的划分](https://www.acwing.com/problem/content/1071/)
+## [1069. 凸多边形的划分](https://www.acwing.com/problem/content/solution/1071/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

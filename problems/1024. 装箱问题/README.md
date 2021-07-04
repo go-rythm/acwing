@@ -1,4 +1,4 @@
-## [1024. 装箱问题](https://www.acwing.com/problem/content/1026/)
+## [1024. 装箱问题](https://www.acwing.com/problem/content/solution/1026/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

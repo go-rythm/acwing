@@ -1,4 +1,4 @@
-## [1075. 数字转换](https://www.acwing.com/problem/content/1077/)
+## [1075. 数字转换](https://www.acwing.com/problem/content/solution/1077/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

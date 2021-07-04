@@ -1,4 +1,4 @@
-## [1052. 设计密码](https://www.acwing.com/problem/content/1054/)
+## [1052. 设计密码](https://www.acwing.com/problem/content/solution/1054/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

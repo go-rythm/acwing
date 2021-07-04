@@ -1,4 +1,4 @@
-## [1098. 城堡问题](https://www.acwing.com/problem/content/1100/)
+## [1098. 城堡问题](https://www.acwing.com/problem/content/solution/1100/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1191. 家谱树](https://www.acwing.com/problem/content/1193/)
+## [1191. 家谱树](https://www.acwing.com/problem/content/solution/1193/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

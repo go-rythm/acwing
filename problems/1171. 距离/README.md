@@ -1,4 +1,4 @@
-## [1171. 距离](https://www.acwing.com/problem/content/1173/)
+## [1171. 距离](https://www.acwing.com/problem/content/solution/1173/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

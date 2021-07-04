@@ -1,4 +1,4 @@
-## [877. 扩展欧几里得算法](https://www.acwing.com/problem/content/879/)
+## [877. 扩展欧几里得算法](https://www.acwing.com/problem/content/solution/879/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1022. 宠物小精灵之收服](https://www.acwing.com/problem/content/1024/)
+## [1022. 宠物小精灵之收服](https://www.acwing.com/problem/content/solution/1024/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

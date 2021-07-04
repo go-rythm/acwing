@@ -1,4 +1,4 @@
-## [1135. 新年好](https://www.acwing.com/problem/content/1137/)
+## [1135. 新年好](https://www.acwing.com/problem/content/solution/1137/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

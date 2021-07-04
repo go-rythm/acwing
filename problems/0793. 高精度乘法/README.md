@@ -1,4 +1,4 @@
-## [793. 高精度乘法](https://www.acwing.com/problem/content/795/)
+## [793. 高精度乘法](https://www.acwing.com/problem/content/solution/795/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1084. 数字游戏II](https://www.acwing.com/problem/content/1086/)
+## [1084. 数字游戏II](https://www.acwing.com/problem/content/solution/1086/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

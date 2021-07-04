@@ -1,4 +1,4 @@
-## [798. 差分矩阵](https://www.acwing.com/problem/content/800/)
+## [798. 差分矩阵](https://www.acwing.com/problem/content/solution/800/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

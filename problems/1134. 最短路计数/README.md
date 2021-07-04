@@ -1,4 +1,4 @@
-## [1134. 最短路计数](https://www.acwing.com/problem/content/1136/)
+## [1134. 最短路计数](https://www.acwing.com/problem/content/solution/1136/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

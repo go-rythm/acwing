@@ -1,4 +1,4 @@
-## [1068. 环形石子合并](https://www.acwing.com/problem/content/1070/)
+## [1068. 环形石子合并](https://www.acwing.com/problem/content/solution/1070/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

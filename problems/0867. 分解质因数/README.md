@@ -1,4 +1,4 @@
-## [867. 分解质因数](https://www.acwing.com/problem/content/869/)
+## [867. 分解质因数](https://www.acwing.com/problem/content/solution/869/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

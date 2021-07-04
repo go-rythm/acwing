@@ -1,4 +1,4 @@
-## [1145. 北极通讯网络](https://www.acwing.com/problem/content/1147/)
+## [1145. 北极通讯网络](https://www.acwing.com/problem/content/solution/1147/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

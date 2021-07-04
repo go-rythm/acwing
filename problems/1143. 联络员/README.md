@@ -1,4 +1,4 @@
-## [1143. 联络员](https://www.acwing.com/problem/content/1145/)
+## [1143. 联络员](https://www.acwing.com/problem/content/solution/1145/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

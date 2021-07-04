@@ -1,4 +1,4 @@
-## [1309. 车的放置](https://www.acwing.com/problem/content/1311/)
+## [1309. 车的放置](https://www.acwing.com/problem/content/solution/1311/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

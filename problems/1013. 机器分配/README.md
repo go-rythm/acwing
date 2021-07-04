@@ -1,4 +1,4 @@
-## [1013. 机器分配](https://www.acwing.com/problem/content/1015/)
+## [1013. 机器分配](https://www.acwing.com/problem/content/solution/1015/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

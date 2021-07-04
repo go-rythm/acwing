@@ -1,4 +1,4 @@
-## [1097. 池塘计数](https://www.acwing.com/problem/content/1099/)
+## [1097. 池塘计数](https://www.acwing.com/problem/content/solution/1099/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

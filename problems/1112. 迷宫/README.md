@@ -1,4 +1,4 @@
-## [1112. 迷宫](https://www.acwing.com/problem/content/1114/)
+## [1112. 迷宫](https://www.acwing.com/problem/content/solution/1114/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

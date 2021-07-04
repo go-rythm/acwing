@@ -1,4 +1,4 @@
-## [1146. 新的开始](https://www.acwing.com/problem/content/1148/)
+## [1146. 新的开始](https://www.acwing.com/problem/content/solution/1148/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

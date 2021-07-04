@@ -1,4 +1,4 @@
-## [1129. 热浪](https://www.acwing.com/problem/content/1131/)
+## [1129. 热浪](https://www.acwing.com/problem/content/solution/1131/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1172. 祖孙询问](https://www.acwing.com/problem/content/1174/)
+## [1172. 祖孙询问](https://www.acwing.com/problem/content/solution/1174/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

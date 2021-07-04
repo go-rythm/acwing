@@ -1,4 +1,4 @@
-## [875. 快速幂](https://www.acwing.com/problem/content/877/)
+## [875. 快速幂](https://www.acwing.com/problem/content/solution/877/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

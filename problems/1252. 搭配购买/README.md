@@ -1,4 +1,4 @@
-## [1252. 搭配购买](https://www.acwing.com/problem/content/1254/)
+## [1252. 搭配购买](https://www.acwing.com/problem/content/solution/1254/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

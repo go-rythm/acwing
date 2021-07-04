@@ -1,4 +1,4 @@
-## [1017. 怪盗基德的滑翔翼](https://www.acwing.com/problem/content/1019/)
+## [1017. 怪盗基德的滑翔翼](https://www.acwing.com/problem/content/solution/1019/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

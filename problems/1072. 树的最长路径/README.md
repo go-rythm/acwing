@@ -1,4 +1,4 @@
-## [1072. 树的最长路径](https://www.acwing.com/problem/content/1074/)
+## [1072. 树的最长路径](https://www.acwing.com/problem/content/solution/1074/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

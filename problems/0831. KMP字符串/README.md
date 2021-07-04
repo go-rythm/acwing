@@ -1,4 +1,4 @@
-## [831. KMP字符串](https://www.acwing.com/problem/content/833/)
+## [831. KMP字符串](https://www.acwing.com/problem/content/solution/833/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

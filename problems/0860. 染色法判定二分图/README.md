@@ -1,4 +1,4 @@
-## [860. 染色法判定二分图](https://www.acwing.com/problem/content/862/)
+## [860. 染色法判定二分图](https://www.acwing.com/problem/content/solution/862/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

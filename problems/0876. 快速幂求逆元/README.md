@@ -1,4 +1,4 @@
-## [876. 快速幂求逆元](https://www.acwing.com/problem/content/878/)
+## [876. 快速幂求逆元](https://www.acwing.com/problem/content/solution/878/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

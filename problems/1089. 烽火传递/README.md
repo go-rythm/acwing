@@ -1,4 +1,4 @@
-## [1089. 烽火传递](https://www.acwing.com/problem/content/1091/)
+## [1089. 烽火传递](https://www.acwing.com/problem/content/solution/1091/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

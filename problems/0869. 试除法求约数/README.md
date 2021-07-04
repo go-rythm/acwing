@@ -1,4 +1,4 @@
-## [869. 试除法求约数](https://www.acwing.com/problem/content/871/)
+## [869. 试除法求约数](https://www.acwing.com/problem/content/solution/871/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

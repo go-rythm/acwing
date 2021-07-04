@@ -1,4 +1,4 @@
-## [1100. 抓住那头牛](https://www.acwing.com/problem/content/1102/)
+## [1100. 抓住那头牛](https://www.acwing.com/problem/content/solution/1102/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

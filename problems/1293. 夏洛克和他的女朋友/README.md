@@ -1,4 +1,4 @@
-## [1293. 夏洛克和他的女朋友](https://www.acwing.com/problem/content/1295/)
+## [1293. 夏洛克和他的女朋友](https://www.acwing.com/problem/content/solution/1295/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

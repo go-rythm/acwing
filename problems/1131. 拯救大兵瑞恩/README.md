@@ -1,4 +1,4 @@
-## [1131. 拯救大兵瑞恩](https://www.acwing.com/problem/content/1133/)
+## [1131. 拯救大兵瑞恩](https://www.acwing.com/problem/content/solution/1133/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

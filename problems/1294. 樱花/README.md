@@ -1,4 +1,4 @@
-## [1294. 樱花](https://www.acwing.com/problem/content/1296/)
+## [1294. 樱花](https://www.acwing.com/problem/content/solution/1296/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

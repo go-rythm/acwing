@@ -1,4 +1,4 @@
-## [1174. 受欢迎的牛](https://www.acwing.com/problem/content/1176/)
+## [1174. 受欢迎的牛](https://www.acwing.com/problem/content/solution/1176/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [1289. 序列的第k个数](https://www.acwing.com/problem/content/1291/)
+## [1289. 序列的第k个数](https://www.acwing.com/problem/content/solution/1291/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解

@@ -1,4 +1,4 @@
-## [905. 区间选点](https://www.acwing.com/problem/content/907/)
+## [905. 区间选点](https://www.acwing.com/problem/content/solution/907/1/)
 
 ### 题目
 
@@ -10,6 +10,14 @@
 
 ### 输入样例：
 
+```
 
+```
+
+### 输出样例：
+
+```
+
+```
 
 ### 题解
