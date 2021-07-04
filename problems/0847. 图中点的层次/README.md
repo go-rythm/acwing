@@ -20,7 +20,7 @@
 
 ### 数据范围
 
-1≤n,m≤105
+1≤ n,m ≤10^5
 
 ### 输入样例：
 
@@ -40,3 +40,53 @@
 ```
 
 ### 题解
+
+树的bfs
+
+#### 树与图的遍历
+
+**宽度优先遍历**
+
+```go
+const N = 100010
+
+var (
+	h, e, ne, d, q [N]int
+    st [N]bool
+	idx            int
+)
+
+// 添加一条边a->b
+func add(a int, b int) {
+	e[idx] = b
+	ne[idx] = h[a]
+	h[a] = idx
+	idx++
+}
+
+// 初始化
+func init() {
+    idx = 0;
+    for i := 0; i < len(h); i++ {
+		h[i] = -1
+	}
+}
+
+func bfs() {
+    hh, tt := 0, 0
+    q[0] = 1
+    for hh <= tt {
+		t := q[hh]
+		hh++
+		for i := h[t]; i != -1; i = ne[i] {
+			j := e[i]
+			if !st[j] {
+				st[j] = true
+				tt++
+				q[tt] = j
+			}
+		}
+	}
+}
+```
+
