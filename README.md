@@ -2,6 +2,8 @@
 
 **acwing.com solutions in golang**
 
+> 安装[MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)以获得最佳的观看体验
+
 | # | 标题 | 题解 | 难度 | 知识点 |
 | - | - | - | - | - |
 | 0002 | 01背包问题 | [Go](problems/0002-01背包问题) | 基础 |  |
