@@ -27,23 +27,22 @@ func main() {
 	for i := 1; i <= n; i++ {
 		var vi, wi, si int
 		fmt.Scan(&vi, &wi, &si)
-		newItem := 1
-		var total int
-		for total = 1; total <= si; {
+		k := 1
+		for k <= si {
 			index++
-			v[index] = vi * newItem
-			w[index] = wi * newItem
-			newItem *= 2
-			total += newItem
+			v[index] = vi * k
+			w[index] = wi * k
+			si -= k
+			k *= 2
 		}
-		total -= newItem
-		if total < si {
+		if si > 0 {
 			index++
-			v[index] = vi * (si - total)
-			w[index] = wi * (si - total)
+			v[index] = vi * si
+			w[index] = wi * si
 		}
 	}
-	for i := 1; i <= index; i++ {
+	n = index
+	for i := 1; i <= n; i++ {
 		for j := m; j >= v[i]; j-- {
 			if g[j-v[i]]+w[i] > g[j] {
 				g[j] = g[j-v[i]] + w[i]
