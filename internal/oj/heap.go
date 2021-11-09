@@ -20,10 +20,3 @@ func (h *MinHeap) Pop() interface{} {
 	*h = old[0 : n-1]
 	return x
 }
-
-func (h *MinHeap) Top() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n-1]
-	return x
-}
