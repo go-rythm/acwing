@@ -33,7 +33,6 @@ func (s *Scanner) readString() string {
 }
 
 func (s *Scanner) readInt() int {
-	s.Scan()
 	i, err := strconv.Atoi(s.readString())
 	if err != nil {
 		panic(err)
