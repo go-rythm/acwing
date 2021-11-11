@@ -7,52 +7,64 @@ import (
 	"strconv"
 )
 
-const N = 310
+const N = int(1e5 + 10)
 
-var (
-	n, m int
-	h, f [N][N]int
-	dx   = [4]int{-1, 0, 1, 0}
-	dy   = [4]int{0, 1, 0, -1}
-)
+// e 存储节点的值
+// l 存储节点的左指针
+// r 存储节点的右指针
+var e, l, r [N]int
+var idx = 0
 
-func dp(x, y int) int {
-	if f[x][y] != -1 {
-		return f[x][y]
-	}
-	f[x][y] = 1
-	for i := 0; i < 4; i++ {
-		a := x + dx[i]
-		b := y + dy[i]
-		if a >= 1 && a <= n && b >= 1 && b <= m && h[a][b] < h[x][y] {
-			f[x][y] = Max(f[x][y], dp(a, b)+1)
-		}
-	}
-	return f[x][y]
+func init() {
+	r[0] = 1
+	l[1] = 0
+	idx = 2
+}
+
+// 在第 k 个点的右边插入 x
+func insert(k, x int) {
+	e[idx] = x
+	l[idx] = k
+	r[idx] = r[k]
+	// 先修改第 k 个点右指针指向的节点的左指针
+	// 再修改第 k 个点的右指针
+	l[r[k]] = idx
+	r[k] = idx
+	idx++
+}
+
+// 删除第 k 个点
+func remove(k int) {
+	r[l[k]] = r[k]
+	l[r[k]] = l[k]
 }
 
 func main() {
 	s := NewScanner()
-	n, m = s.ReadInt(), s.ReadInt()
-	for i := 1; i <= n; i++ {
-		for j := 1; j <= m; j++ {
-			h[i][j] = s.ReadInt()
+	m := s.ReadInt()
+	for i := 0; i < m; i++ {
+		op := s.ReadString()
+		switch op {
+		case "L":
+			x := s.ReadInt()
+			insert(0, x)
+		case "R":
+			x := s.ReadInt()
+			insert(l[1], x)
+		case "D":
+			k := s.ReadInt()
+			remove(k + 1)
+		case "IL":
+			k, x := s.ReadInt(), s.ReadInt()
+			insert(l[k+1], x)
+		case "IR":
+			k, x := s.ReadInt(), s.ReadInt()
+			insert(k+1, x)
 		}
 	}
-	for i := 0; i < N; i++ {
-		for j := 0; j < N; j++ {
-			f[i][j] = -1
-		}
+	for i := r[0]; i != 1; i = r[i] {
+		fmt.Printf("%d ", e[i])
 	}
-
-	res := 0
-	for i := 1; i <= n; i++ {
-		for j := 1; j <= m; j++ {
-			res = Max(res, dp(i, j))
-		}
-	}
-
-	fmt.Println(res)
 }
 
 /*
