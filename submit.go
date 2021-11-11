@@ -7,47 +7,52 @@ import (
 	"strconv"
 )
 
-const (
-	N = 20
-	M = 1 << N
-)
+const N = 310
 
 var (
-	f [M][N]int
-	w [N][N]int
+	n, m int
+	h, f [N][N]int
+	dx   = [4]int{-1, 0, 1, 0}
+	dy   = [4]int{0, 1, 0, -1}
 )
 
+func dp(x, y int) int {
+	if f[x][y] != -1 {
+		return f[x][y]
+	}
+	f[x][y] = 1
+	for i := 0; i < 4; i++ {
+		a := x + dx[i]
+		b := y + dy[i]
+		if a >= 1 && a <= n && b >= 1 && b <= m && h[a][b] < h[x][y] {
+			f[x][y] = Max(f[x][y], dp(a, b)+1)
+		}
+	}
+	return f[x][y]
+}
+
 func main() {
-	// in := In()
-	// os.Stdin = in
-	// defer in.Close()
-
 	s := NewScanner()
-	n := s.ReadInt()
-	for i := 0; i < n; i++ {
-		for j := 0; j < n; j++ {
-			w[i][j] = s.ReadInt()
+	n, m = s.ReadInt(), s.ReadInt()
+	for i := 1; i <= n; i++ {
+		for j := 1; j <= m; j++ {
+			h[i][j] = s.ReadInt()
 		}
 	}
-	for i := 0; i < len(f); i++ {
-		for j := 0; j < len(f[0]); j++ {
-			f[i][j] = int(1e9)
-		}
-	}
-	f[1][0] = 0
-	for i := 0; i < 1<<n; i++ {
-		for j := 0; j < n; j++ {
-			if i>>j&1 == 1 {
-				for k := 0; k < n; k++ {
-					if i>>k&1 == 1 {
-						f[i][j] = Min(f[i][j], f[i-(1<<j)][k]+w[k][j])
-					}
-				}
-			}
+	for i := 0; i < N; i++ {
+		for j := 0; j < N; j++ {
+			f[i][j] = -1
 		}
 	}
 
-	fmt.Println(f[(1<<n)-1][n-1])
+	res := 0
+	for i := 1; i <= n; i++ {
+		for j := 1; j <= m; j++ {
+			res = Max(res, dp(i, j))
+		}
+	}
+
+	fmt.Println(res)
 }
 
 /*
