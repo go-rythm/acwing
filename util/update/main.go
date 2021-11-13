@@ -31,6 +31,7 @@ func main() {
 	for i := range lines {
 		lines[i] = parseLine(lines[i])
 	}
+	lines[6] = fmt.Sprintf("**acwing.com solutions in golang** %d/%d", cnt, 459)
 	output := strings.Join(lines, "\n")
 	output = strings.ReplaceAll(output, "probCnt", strconv.Itoa(cnt))
 	err = os.WriteFile(rootReadme, []byte(output), 0644)
