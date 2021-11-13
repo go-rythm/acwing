@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 )
 
@@ -31,6 +32,7 @@ func main() {
 		lines[i] = parseLine(lines[i])
 	}
 	output := strings.Join(lines, "\n")
+	output = strings.ReplaceAll(output, "probCnt", strconv.Itoa(cnt))
 	err = os.WriteFile(rootReadme, []byte(output), 0644)
 	if err != nil {
 		log.Fatal(err)

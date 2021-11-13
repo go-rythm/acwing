@@ -1,6 +1,10 @@
 # go-acwing
 
-**acwing.com solutions in golang**
+[![GoDoc](https://img.shields.io/badge/GoDoc-Reference-blue?style=for-the-badge&logo=go)](https://pkg.go.dev/github.com/luxcgo/go-acwing?tab=doc)
+[![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
+[![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
+
+**acwing.com solutions in golang** [![ProgressBar](https://progress-bar.dev/21/?scale=459&title=completed&suffix=p)]()
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
