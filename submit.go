@@ -5,66 +5,44 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
-const N = int(1e5 + 10)
+func quickSort(q []int, l int, r int) {
+	if l >= r {
+		return
+	}
 
-// e 存储节点的值
-// l 存储节点的左指针
-// r 存储节点的右指针
-var e, l, r [N]int
-var idx = 0
+	i, j := l-1, r+1
+	x := q[(l+r)>>1]
+	for i < j {
+		i++
+		for q[i] < x {
+			i++
+		}
+		j--
+		for q[j] > x {
+			j--
+		}
+		if i < j {
+			q[i], q[j] = q[j], q[i]
+		}
+	}
 
-func init() {
-	r[0] = 1
-	l[1] = 0
-	idx = 2
-}
-
-// 在第 k 个点的右边插入 x
-func insert(k, x int) {
-	e[idx] = x
-	l[idx] = k
-	r[idx] = r[k]
-	// 先修改第 k 个点右指针指向的节点的左指针
-	// 再修改第 k 个点的右指针
-	l[r[k]] = idx
-	r[k] = idx
-	idx++
-}
-
-// 删除第 k 个点
-func remove(k int) {
-	r[l[k]] = r[k]
-	l[r[k]] = l[k]
+	// [l,j] 和 [j+1,r] 的 pivot(line14) 不能选择 q[r]，会有边界问题，导致死循环，选择数组中任意其他位置都可以。
+	// 循环不变量:
+	// [l,i] 区间若合法则其中所有值 <= pivot
+	// [j,r] 区间若合法则其中所有值 >= pivot
+	quickSort(q, l, j)
+	quickSort(q, j+1, r)
 }
 
 func main() {
 	s := NewScanner()
-	m := s.ReadInt()
-	for i := 0; i < m; i++ {
-		op := s.ReadString()
-		switch op {
-		case "L":
-			x := s.ReadInt()
-			insert(0, x)
-		case "R":
-			x := s.ReadInt()
-			insert(l[1], x)
-		case "D":
-			k := s.ReadInt()
-			remove(k + 1)
-		case "IL":
-			k, x := s.ReadInt(), s.ReadInt()
-			insert(l[k+1], x)
-		case "IR":
-			k, x := s.ReadInt(), s.ReadInt()
-			insert(k+1, x)
-		}
-	}
-	for i := r[0]; i != 1; i = r[i] {
-		fmt.Printf("%d ", e[i])
-	}
+	n := s.ReadInt()
+	q := s.ReadInts(n)
+	quickSort(q, 0, n-1)
+	fmt.Println(strings.Trim(strings.Join(strings.Fields(fmt.Sprint(q)), " "), "[]"))
 }
 
 /*
