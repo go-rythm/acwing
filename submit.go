@@ -5,44 +5,50 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-	"strings"
 )
 
-func quickSort(q []int, l int, r int) {
-	if l >= r {
-		return
-	}
-
-	i, j := l-1, r+1
-	x := q[(l+r)>>1]
-	for i < j {
-		i++
-		for q[i] < x {
-			i++
-		}
-		j--
-		for q[j] > x {
-			j--
-		}
-		if i < j {
-			q[i], q[j] = q[j], q[i]
-		}
-	}
-
-	// [l,j] 和 [j+1,r] 的 pivot(line14) 不能选择 q[r]，会有边界问题，导致死循环，选择数组中任意其他位置都可以。
-	// 循环不变量:
-	// [l,i] 区间若合法则其中所有值 <= pivot
-	// [j,r] 区间若合法则其中所有值 >= pivot
-	quickSort(q, l, j)
-	quickSort(q, j+1, r)
-}
+var (
+	q, temp []int
+)
 
 func main() {
 	s := NewScanner()
 	n := s.ReadInt()
-	q := s.ReadInts(n)
-	quickSort(q, 0, n-1)
-	fmt.Println(strings.Trim(strings.Join(strings.Fields(fmt.Sprint(q)), " "), "[]"))
+	q = s.ReadInts(n)
+	temp = make([]int, n)
+	fmt.Println(mergeSort(q, 0, n-1))
+}
+
+func mergeSort(q []int, l, r int) int {
+	if l >= r {
+		return 0
+	}
+	mid := (l + r) >> 1
+	cnt := mergeSort(q, l, mid) + mergeSort(q, mid+1, r)
+	k, i, j := 0, l, mid+1
+	for i <= mid && j <= r {
+		if q[i] <= q[j] {
+			temp[k] = q[i]
+			i++
+		} else {
+			temp[k] = q[j]
+			j++
+			cnt += mid - i + 1
+		}
+		k++
+	}
+	for i <= mid {
+		temp[k] = q[i]
+		k++
+		i++
+	}
+	for j <= r {
+		temp[k] = q[j]
+		k++
+		j++
+	}
+	copy(q[l:r+1], temp)
+	return cnt
 }
 
 /*
