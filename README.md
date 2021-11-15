@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 23/459
+**acwing.com solutions in golang** 24/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -31,7 +31,7 @@
 | 0786 | 第k个数 | [Go](problems/0786) | 基础 | 0785 | 快排 | 基础算法-快速排序 |
 | 0787 | 归并排序 | [Go](problems/0787) | 基础 | 0786 | 分治思想 | 基础算法-归并排序 |
 | 0788 | 逆序对的数量 | [Go](problems/0788) | 基础 | 0787 | 归并排序 | 基础算法-归并排序 |
-| 0789 | 数的范围 | [Go](problems/0789) | 基础 |  |  |  |
+| 0789 | 数的范围 | [Go](problems/0789) | 基础 | 0788 | 语法 | 基础算法-二分 |
 | 0790 | 数的三次方根 | [Go](problems/0790) | 基础 |  |  |  |
 | 0791 | 高精度加法 | [Go](problems/0791) | 基础 |  |  |  |
 | 0792 | 高精度减法 | [Go](problems/0792) | 基础 |  |  |  |
