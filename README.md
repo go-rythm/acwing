@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 25/459
+**acwing.com solutions in golang** 26/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -38,7 +38,7 @@
 | 0793 | 高精度乘法 | [Go](problems/0793) | 基础 |  |  |  |
 | 0794 | 高精度除法 | [Go](problems/0794) | 基础 |  |  |  |
 | 0795 | 前缀和 | [Go](problems/0795) | 基础 | 0794 | 语法 | 基础算法-前缀和 |
-| 0796 | 子矩阵的和 | [Go](problems/0796) | 基础 |  |  |  |
+| 0796 | 子矩阵的和 | [Go](problems/0796) | 基础 | 0795 | 前缀和 | 基础算法-前缀和 |
 | 0797 | 差分 | [Go](problems/0797) | 基础 |  |  |  |
 | 0798 | 差分矩阵 | [Go](problems/0798) | 基础 |  |  |  |
 | 0799 | 最长连续不重复子序列 | [Go](problems/0799) | 基础 |  |  |  |

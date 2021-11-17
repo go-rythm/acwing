@@ -7,54 +7,26 @@ import (
 	"strconv"
 )
 
+const N = 1010
+
+var a, s [N][N]int
+var ot = bufio.NewWriterSize(os.Stdout, int(1e6))
+
 func main() {
-	s := NewScanner()
-	n, m := s.ReadInt(), s.ReadInt()
-	q := s.ReadInts(n)
-	for i := 0; i < m; i++ {
-		x := s.ReadInt()
-
-		var leftBound int
-		var rightBound int
-		l := 0
-		r := n - 1
-		for l+1 < r {
-			mid := (l + r) >> 1
-			if q[mid] >= x {
-				r = mid
-			} else {
-				l = mid
-			}
+	defer ot.Flush()
+	in := NewScanner()
+	n, m, q := in.ReadInt(), in.ReadInt(), in.ReadInt()
+	for i := 1; i <= n; i++ {
+		for j := 1; j <= m; j++ {
+			a[i][j] = in.ReadInt()
+			s[i][j] = s[i][j-1] + s[i-1][j] - s[i-1][j-1] + a[i][j]
 		}
-		if q[l] == x {
-			leftBound = l
-		} else if q[r] == x {
-			leftBound = r
-		} else {
-			fmt.Println("-1 -1")
-			continue
-		}
-
-		l = 0
-		r = n - 1
-		for l+1 < r {
-			mid := (l + r) >> 1
-			if q[mid] > x {
-				r = mid
-			} else {
-				l = mid
-			}
-		}
-		if q[r] == x {
-			rightBound = r
-		} else if q[l] == x {
-			rightBound = l
-		} else {
-			fmt.Println("-1 -1")
-			continue
-		}
-
-		fmt.Printf("%d %d\n", leftBound, rightBound)
+	}
+	for i := 0; i < q; i++ {
+		r := in.ReadInts(4)
+		x1, y1, x2, y2 := r[0], r[1], r[2], r[3]
+		res := s[x2][y2] - s[x2][y1-1] - s[x1-1][y2] + s[x1-1][y1-1]
+		fmt.Fprintln(ot, res)
 	}
 }
 
