@@ -7,27 +7,27 @@ import (
 	"strconv"
 )
 
-const N = 1010
+const N = int(1e5 + 10)
 
-var a, s [N][N]int
-var ot = bufio.NewWriterSize(os.Stdout, int(1e6))
+var a, b [N]int
 
 func main() {
-	defer ot.Flush()
-	in := NewScanner()
-	n, m, q := in.ReadInt(), in.ReadInt(), in.ReadInt()
+	s := NewScanner()
+	n, m := s.ReadInt(), s.ReadInt()
 	for i := 1; i <= n; i++ {
-		for j := 1; j <= m; j++ {
-			a[i][j] = in.ReadInt()
-			s[i][j] = s[i][j-1] + s[i-1][j] - s[i-1][j-1] + a[i][j]
-		}
+		a[i] = s.ReadInt()
+		b[i] = a[i] - a[i-1]
 	}
-	for i := 0; i < q; i++ {
-		r := in.ReadInts(4)
-		x1, y1, x2, y2 := r[0], r[1], r[2], r[3]
-		res := s[x2][y2] - s[x2][y1-1] - s[x1-1][y2] + s[x1-1][y1-1]
-		fmt.Fprintln(ot, res)
+	for i := 0; i < m; i++ {
+		l, r, c := s.ReadInt(), s.ReadInt(), s.ReadInt()
+		b[l] += c
+		b[r+1] -= c
 	}
+	for i := 1; i <= n; i++ {
+		a[i] = b[i] + a[i-1]
+		fmt.Printf("%d ", a[i])
+	}
+
 }
 
 /*
