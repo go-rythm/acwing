@@ -7,27 +7,20 @@ import (
 	"strconv"
 )
 
-const N = 100010
-
-var (
-	a []int
-	s [N]int
-)
-
 func main() {
-	in := NewScanner()
-	n := in.ReadInt()
-	a = in.ReadInts(n)
-	var max int
-	for i, j := 0, 0; i < n; i++ {
-		s[a[i]]++
-		for s[a[i]] > 1 {
-			s[a[j]]--
-			j++
+	s := NewScanner()
+	n, m, x := s.ReadInt(), s.ReadInt(), s.ReadInt()
+	a := s.ReadInts(n)
+	b := s.ReadInts(m)
+	for i, j := 0, m-1; i < n; i++ {
+		for j > 0 && a[i]+b[j] > x {
+			j--
 		}
-		max = Max(max, i-j+1)
+		if a[i]+b[j] == x {
+			fmt.Printf("%d %d\n", i, j)
+			break
+		}
 	}
-	fmt.Println(max)
 }
 
 /*
