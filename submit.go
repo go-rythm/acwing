@@ -4,23 +4,75 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"sort"
 	"strconv"
 )
 
+const N = 3e5 + 10
+
+var a, s [N]int
+
+type pair struct { // 定义操作
+	p1 int
+	p2 int
+}
+
 func main() {
-	s := NewScanner()
-	n, m, x := s.ReadInt(), s.ReadInt(), s.ReadInt()
-	a := s.ReadInts(n)
-	b := s.ReadInts(m)
-	for i, j := 0, m-1; i < n; i++ {
-		for j > 0 && a[i]+b[j] > x {
-			j--
-		}
-		if a[i]+b[j] == x {
-			fmt.Printf("%d %d\n", i, j)
-			break
+	in := NewScanner()
+	n, m := in.ReadInt(), in.ReadInt()
+	var alls []int
+	add := make([]pair, 0)
+	for i := 0; i < n; i++ {
+		x, c := in.ReadInt(), in.ReadInt()
+		add = append(add, pair{x, c})
+		alls = append(alls, x)
+	}
+
+	query := make([]pair, 0)
+	for i := 0; i < m; i++ {
+		l, r := in.ReadInt(), in.ReadInt()
+		query = append(query, pair{l, r})
+		alls = append(alls, l)
+		alls = append(alls, r)
+	}
+
+	sort.Ints(alls)
+	alls = Unique(alls)
+
+	for _, v := range add {
+		a[findIndex(alls, v.p1)] += v.p2
+	}
+
+	for i := 0; i < len(alls); i++ {
+		s[i+1] = s[i] + a[i]
+	}
+
+	for _, v := range query {
+		l := findIndex(alls, v.p1)
+		r := findIndex(alls, v.p2)
+		fmt.Println(s[r+1] - s[l])
+	}
+}
+
+func findIndex(arr []int, target int) int {
+	l, r := 0, len(arr)-1
+	for l+1 < r {
+		mid := (l + r) >> 1
+		if arr[mid] < target {
+			l = mid
+		} else if arr[mid] > target {
+			r = mid
+		} else {
+			return mid
 		}
 	}
+	if arr[l] == target {
+		return l
+	}
+	if arr[r] == target {
+		return r
+	}
+	return -1
 }
 
 /*
@@ -132,4 +184,15 @@ func Memset(a []int, v int) {
 	for bp := 1; bp < len(a); bp *= 2 {
 		copy(a[bp:], a[:bp])
 	}
+}
+
+func Unique(a []int) []int {
+	j := 0
+	for i := 0; i < len(a); i++ {
+		if i == 0 || a[i] != a[i-1] {
+			a[j] = a[i]
+			j++
+		}
+	}
+	return a[:j]
 }
