@@ -4,75 +4,51 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"sort"
 	"strconv"
+	"strings"
 )
 
-const N = 3e5 + 10
+const N = 100010
 
-var a, s [N]int
+// 存储每个点的祖宗节点
+var p [N]int
 
-type pair struct { // 定义操作
-	p1 int
-	p2 int
+// 返回x的祖宗节点
+func find(x int) int {
+	if p[x] != x {
+		// 路径压缩优化
+		p[x] = find(p[x])
+	}
+	return p[x]
 }
 
 func main() {
-	in := NewScanner()
-	n, m := in.ReadInt(), in.ReadInt()
-	var alls []int
-	add := make([]pair, 0)
-	for i := 0; i < n; i++ {
-		x, c := in.ReadInt(), in.ReadInt()
-		add = append(add, pair{x, c})
-		alls = append(alls, x)
+	s := NewScanner()
+	n, m := s.ReadInt(), s.ReadInt()
+	// 初始化，根据节点编号是 1~n
+	for i := 1; i <= n; i++ {
+		p[i] = i
 	}
-
-	query := make([]pair, 0)
+	var sb strings.Builder
 	for i := 0; i < m; i++ {
-		l, r := in.ReadInt(), in.ReadInt()
-		query = append(query, pair{l, r})
-		alls = append(alls, l)
-		alls = append(alls, r)
-	}
-
-	sort.Ints(alls)
-	alls = Unique(alls)
-
-	for _, v := range add {
-		a[findIndex(alls, v.p1)] += v.p2
-	}
-
-	for i := 0; i < len(alls); i++ {
-		s[i+1] = s[i] + a[i]
-	}
-
-	for _, v := range query {
-		l := findIndex(alls, v.p1)
-		r := findIndex(alls, v.p2)
-		fmt.Println(s[r+1] - s[l])
-	}
-}
-
-func findIndex(arr []int, target int) int {
-	l, r := 0, len(arr)-1
-	for l+1 < r {
-		mid := (l + r) >> 1
-		if arr[mid] < target {
-			l = mid
-		} else if arr[mid] > target {
-			r = mid
-		} else {
-			return mid
+		op := s.ReadString()
+		a, b := s.ReadInt(), s.ReadInt()
+		switch op {
+		case "M":
+			// 合并 a 和 b 所在的两个集合：
+			p[find(a)] = find(b)
+		case "Q":
+			if sb.String() != "" {
+				fmt.Fprintln(&sb)
+			}
+			if find(a) == find(b) {
+				fmt.Fprint(&sb, "Yes")
+			} else {
+				fmt.Fprint(&sb, "No")
+			}
 		}
 	}
-	if arr[l] == target {
-		return l
-	}
-	if arr[r] == target {
-		return r
-	}
-	return -1
+	fmt.Println(sb.String())
 }
 
 /*
@@ -186,6 +162,7 @@ func Memset(a []int, v int) {
 	}
 }
 
+// Unique 使用双指针算法去除一个有序切片中的重复值，返回单调有序的切片
 func Unique(a []int) []int {
 	j := 0
 	for i := 0; i < len(a); i++ {
