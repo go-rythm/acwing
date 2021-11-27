@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 34/459
+**acwing.com solutions in golang** 35/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -56,7 +56,7 @@
 | 0836 | 合并集合 | [Go](problems/0836) | 基础 | 0143 | 树 | 数据结构-并查集 |
 | 0837 | 连通块中点的数量 | [Go](problems/0837) | 基础 |  |  |  |
 | 0838 | 堆排序 | [Go](problems/0838) | 基础 | 0240 | 语法 | 数据结构-堆 |
-| 0839 | 模拟堆 | [Go](problems/0839) | 基础 |  |  |  |
+| 0839 | 模拟堆 | [Go](problems/0839) | 基础 | 0838 | 堆排序 | 数据结构-堆 |
 | 0840 | 模拟散列表 | [Go](problems/0840) | 基础 |  |  |  |
 | 0841 | 字符串哈希 | [Go](problems/0841) | 基础 |  |  |  |
 | 0842 | 排列数字 | [Go](problems/0842) | 基础 |  |  |  |
