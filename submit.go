@@ -4,51 +4,45 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"sort"
 	"strconv"
-	"strings"
 )
 
-const N = 100010
-
-// 存储每个点的祖宗节点
-var p [N]int
-
-// 返回x的祖宗节点
-func find(x int) int {
-	if p[x] != x {
-		// 路径压缩优化
-		p[x] = find(p[x])
-	}
-	return p[x]
+type pair struct {
+	left  int
+	right int
 }
 
 func main() {
 	s := NewScanner()
-	n, m := s.ReadInt(), s.ReadInt()
-	// 初始化，根据节点编号是 1~n
-	for i := 1; i <= n; i++ {
-		p[i] = i
+	n := s.ReadInt()
+	intervals := make([]pair, n)
+	for i := 0; i < n; i++ {
+		intervals[i].left, intervals[i].right = s.ReadInt(), s.ReadInt()
 	}
-	var sb strings.Builder
-	for i := 0; i < m; i++ {
-		op := s.ReadString()
-		a, b := s.ReadInt(), s.ReadInt()
-		switch op {
-		case "M":
-			// 合并 a 和 b 所在的两个集合：
-			p[find(a)] = find(b)
-		case "Q":
-			if sb.String() != "" {
-				fmt.Fprintln(&sb)
+	sort.Slice(intervals, func(i int, j int) bool {
+		if intervals[i].left == intervals[j].left {
+			return intervals[i].right < intervals[j].right
+		}
+		return intervals[i].left < intervals[j].left
+	})
+	var st, ed int = -2e9, -2e9
+	merged := make([]pair, 0)
+	for _, v := range intervals {
+		if ed < v.left {
+			if ed != -2e9 {
+				merged = append(merged, pair{st, ed})
 			}
-			if find(a) == find(b) {
-				fmt.Fprint(&sb, "Yes")
-			} else {
-				fmt.Fprint(&sb, "No")
-			}
+			st = v.left
+			ed = v.right
+		} else {
+			ed = Max(v.right, ed)
 		}
 	}
-	fmt.Println(sb.String())
+	if ed != -2e9 {
+		merged = append(merged, pair{st, ed})
+	}
+	fmt.Println(len(merged))
 }
 
 /*
@@ -59,6 +53,22 @@ func main() {
  *    /_/ /_/\___/_/ .___/\___/_/  /____/
  *                /_/
  */
+
+func Unique(a []int) []int {
+	j := 0
+	for i := 0; i < len(a); i++ {
+		if i == 0 || a[i] != a[i-1] {
+			a[j] = a[i]
+			j++
+		}
+	}
+	return a[:j]
+}
+
+// Swap 交换两个int指针指向的值
+func Swap(a, b *int) {
+	*a, *b = *b, *a
+}
 
 type MinHeap []int
 
@@ -160,16 +170,4 @@ func Memset(a []int, v int) {
 	for bp := 1; bp < len(a); bp *= 2 {
 		copy(a[bp:], a[:bp])
 	}
-}
-
-// Unique 使用双指针算法去除一个有序切片中的重复值，返回单调有序的切片
-func Unique(a []int) []int {
-	j := 0
-	for i := 0; i < len(a); i++ {
-		if i == 0 || a[i] != a[i-1] {
-			a[j] = a[i]
-			j++
-		}
-	}
-	return a[:j]
 }

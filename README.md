@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 37/459
+**acwing.com solutions in golang** 38/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -45,7 +45,7 @@
 | 0800 | 数组元素的目标和 | [Go](problems/0800) | 基础 | 0799 | 双指针 | 基础算法-双指针 |
 | 0801 | 二进制中1的个数 | [Go](problems/0801) | 基础 |  |  |  |
 | 0802 | 区间和 | [Go](problems/0802) | 基础 | 0801 | 二分、前缀和 | 基础算法-离散化 |
-| 0803 | 区间合并 | [Go](problems/0803) | 基础 |  |  |  |
+| 0803 | 区间合并 | [Go](problems/0803) | 基础 | 0802 | 语法 | 基础算法-区间合并 |
 | 0826 | 单链表 | [Go](problems/0826) | 基础 | 0000 | 语法 | 数据结构-单链表 |
 | 0827 | 双链表 | [Go](problems/0827) | 基础 | 0826 | 单链表 | 数据结构-双链表 |
 | 0828 | 模拟栈 | [Go](problems/0828) | 基础 | 0827 | 数组 | 数据结构-栈 |
