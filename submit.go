@@ -4,45 +4,35 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"sort"
 	"strconv"
 )
 
-type pair struct {
-	left  int
-	right int
-}
+const N = 100010
+
+var stack [N]int
+var tt int
 
 func main() {
 	s := NewScanner()
 	n := s.ReadInt()
-	intervals := make([]pair, n)
+	res := make([]int, n)
 	for i := 0; i < n; i++ {
-		intervals[i].left, intervals[i].right = s.ReadInt(), s.ReadInt()
-	}
-	sort.Slice(intervals, func(i int, j int) bool {
-		if intervals[i].left == intervals[j].left {
-			return intervals[i].right < intervals[j].right
+		x := s.ReadInt()
+		for tt > 0 && stack[tt] >= x {
+			tt--
 		}
-		return intervals[i].left < intervals[j].left
-	})
-	var st, ed int = -2e9, -2e9
-	merged := make([]pair, 0)
-	for _, v := range intervals {
-		if ed < v.left {
-			if ed != -2e9 {
-				merged = append(merged, pair{st, ed})
-			}
-			st = v.left
-			ed = v.right
+		if tt == 0 {
+			res[i] = -1
 		} else {
-			ed = Max(v.right, ed)
+			res[i] = stack[tt]
 		}
+		tt++
+		stack[tt] = x
 	}
-	if ed != -2e9 {
-		merged = append(merged, pair{st, ed})
+
+	for _, v := range res {
+		fmt.Printf("%d ", v)
 	}
-	fmt.Println(len(merged))
 }
 
 /*

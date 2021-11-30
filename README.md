@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 38/459
+**acwing.com solutions in golang** 39/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -50,7 +50,7 @@
 | 0827 | 双链表 | [Go](problems/0827) | 基础 | 0826 | 单链表 | 数据结构-双链表 |
 | 0828 | 模拟栈 | [Go](problems/0828) | 基础 | 0827 | 数组 | 数据结构-栈 |
 | 0829 | 模拟队列 | [Go](problems/0829) | 基础 | 0828 | 数组 | 数据结构-队列 |
-| 0830 | 单调栈 | [Go](problems/0830) | 基础 |  |  |  |
+| 0830 | 单调栈 | [Go](problems/0830) | 基础 | 0829 | 栈 | 数据结构-单调栈 |
 | 0831 | KMP字符串 | [Go](problems/0831) | 基础 |  |  |  |
 | 0835 | Trie字符串统计 | [Go](problems/0835) | 基础 | 0831 | 邻接表 | 数据结构-Trie |
 | 0836 | 合并集合 | [Go](problems/0836) | 基础 | 0143 | 树 | 数据结构-并查集 |
