@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 41/459
+**acwing.com solutions in golang** 42/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -61,7 +61,7 @@
 | 0841 | 字符串哈希 | [Go](problems/0841) | 基础 |  |  |  |
 | 0842 | 排列数字 | [Go](problems/0842) | 基础 | 0841 | 递归 | 搜索与图论-DFS |
 | 0843 | n-皇后问题 | [Go](problems/0843-n) | 基础 | 0842 | 数学 | 搜索与图论-DFS |
-| 0844 | 走迷宫 | [Go](problems/0844) | 基础 |  |  |  |
+| 0844 | 走迷宫 | [Go](problems/0844) | 基础 | 0843 | 队列 | 搜索与图论-BFS |
 | 0845 | 八数码 | [Go](problems/0845) | 基础 |  |  |  |
 | 0846 | 树的重心 | [Go](problems/0846) | 基础 |  |  |  |
 | 0847 | 图中点的层次 | [Go](problems/0847) | 基础 |  |  |  |
