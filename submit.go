@@ -7,99 +7,40 @@ import (
 	"strconv"
 )
 
-// // 方法一：拉链法
-// // 大于数据范围的第一个质数
-// const N = int(1e5 + 3)
-
-// var (
-// 	h, e, ne [N]int
-// 	idx      int
-// )
-
-// func main() {
-// 	s := NewScanner()
-// 	n := s.ReadInt()
-
-// 	for i := 0; i < len(h); i++ {
-// 		h[i] = -1
-// 	}
-
-// 	for i := 0; i < n; i++ {
-// 		op := s.ReadString()
-// 		x := s.ReadInt()
-// 		switch op {
-// 		case "I":
-// 			insert(x)
-// 		case "Q":
-// 			if find(x) {
-// 				fmt.Println("Yes")
-// 			} else {
-// 				fmt.Println("No")
-// 			}
-// 		}
-// 	}
-// }
-
-// func insert(x int) {
-// 	k := (x%N + N) % N
-// 	e[idx] = x
-// 	ne[idx] = h[k]
-// 	h[k] = idx
-// 	idx++
-// }
-
-// func find(x int) bool {
-// 	k := (x%N + N) % N
-// 	for i := h[k]; i != -1; i = ne[i] {
-// 		if e[i] == x {
-// 			return true
-// 		}
-// 	}
-// 	return false
-// }
-
-// 方法二：开放寻址法
-const N = int(2e5 + 3)
+const (
+	N = int(1e5 + 10)
+	P = 131
+)
 
 var (
-	h    [N]int
-	null = 0x3f3f3f
+	// 前缀和
+	h [N]int64
+	// 进制
+	p [N]int64
 )
 
 func main() {
 	s := NewScanner()
-	n := s.ReadInt()
-
-	for i := 0; i < len(h); i++ {
-		h[i] = null
+	n, m := s.ReadInt(), s.ReadInt()
+	x := " " + s.ReadString()
+	p[0] = 1 // 0次方
+	for i := 1; i <= n; i++ {
+		p[i] = p[i-1] * P
+		h[i] = h[i-1]*P + int64(x[i])
 	}
 
-	for i := 0; i < n; i++ {
-		op := s.ReadString()
-		x := s.ReadInt()
-		k := find(x)
-		switch op {
-		case "I":
-			h[k] = x
-		case "Q":
-			if h[k] != null {
-				fmt.Println("Yes")
-			} else {
-				fmt.Println("No")
-			}
+	for i := 0; i < m; i++ {
+		l1, r1, l2, r2 := s.ReadInt(), s.ReadInt(), s.ReadInt(), s.ReadInt()
+		if get(l1, r1) == get(l2, r2) {
+			fmt.Println("Yes")
+		} else {
+			fmt.Println("No")
 		}
 	}
 }
 
-func find(x int) int {
-	k := (x%N + N) % N
-	for h[k] != null && h[k] != x {
-		k++
-		if k == N {
-			k = 0
-		}
-	}
-	return k
+func get(l, r int) int64 {
+	return h[r] - h[l-1]*p[r-l+1]
 }
 
 /*
