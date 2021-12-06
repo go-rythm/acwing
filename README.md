@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 44/459
+**acwing.com solutions in golang** 45/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -59,11 +59,11 @@
 | 0839 | 模拟堆 | [Go](problems/0839) | 基础 | 0838 | 堆排序 | 数据结构-堆 |
 | 0840 | 模拟散列表 | [Go](problems/0840) | 基础 | 0839 | 单链表 | 数据结构-哈希表 |
 | 0841 | 字符串哈希 | [Go](problems/0841) | 基础 | 0840 | 前缀和 | 数据结构-哈希表 |
-| 0842 | 排列数字 | [Go](problems/0842) | 基础 | 0841 | 递归 | 搜索与图论-DFS |
+| 0842 | 排列数字 | [Go](problems/0842) | 基础 | 0000 | 递归 | 搜索与图论-DFS |
 | 0843 | n-皇后问题 | [Go](problems/0843-n) | 基础 | 0842 | 数学 | 搜索与图论-DFS |
 | 0844 | 走迷宫 | [Go](problems/0844) | 基础 | 0843 | 队列 | 搜索与图论-BFS |
 | 0845 | 八数码 | [Go](problems/0845) | 基础 |  |  |  |
-| 0846 | 树的重心 | [Go](problems/0846) | 基础 |  |  |  |
+| 0846 | 树的重心 | [Go](problems/0846) | 基础 | 0845 | 单链表 | 搜索与图论-DFS |
 | 0847 | 图中点的层次 | [Go](problems/0847) | 基础 |  |  |  |
 | 0848 | 有向图的拓扑序列 | [Go](problems/0848) | 基础 |  |  |  |
 | 0849 | Dijkstra求最短路I | [Go](problems/0849) | 基础 |  |  |  |
