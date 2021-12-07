@@ -41,3 +41,56 @@ $1 \\le n,m \\le 10^5$
 
 ### 题解
 
+前置题目：0846
+
+前置知识：队列
+
+本题知识：搜索与图论-BFS
+
+#### 题目分析
+
+树的宽度优先遍历
+
+```go
+const N = 100010
+
+var (
+	h, e, ne, d, q [N]int
+    st [N]bool
+	idx            int
+)
+
+// 添加一条边a->b
+func add(a int, b int) {
+	e[idx] = b
+	ne[idx] = h[a]
+	h[a] = idx
+	idx++
+}
+
+// 初始化
+func init() {
+    idx = 0;
+    for i := 0; i < len(h); i++ {
+		h[i] = -1
+	}
+}
+
+func bfs() {
+    hh, tt := 0, 0
+    q[0] = 1
+    for hh <= tt {
+		t := q[hh]
+		hh++
+		for i := h[t]; i != -1; i = ne[i] {
+			j := e[i]
+			if !st[j] {
+				st[j] = true
+				tt++
+				q[tt] = j
+			}
+		}
+	}
+}
+```
+
