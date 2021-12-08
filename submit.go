@@ -7,40 +7,64 @@ import (
 	"strconv"
 )
 
-const (
-	N = int(1e5 + 10)
-	P = 131
-)
+const N = int(1e5 + 10)
 
 var (
-	// 前缀和
-	h [N]int64
-	// 进制
-	p [N]int64
+	n, m     int
+	h, e, ne [N]int
+	idx      int
+	q, d     [N]int
 )
 
 func main() {
 	s := NewScanner()
-	n, m := s.ReadInt(), s.ReadInt()
-	x := " " + s.ReadString()
-	p[0] = 1 // 0次方
-	for i := 1; i <= n; i++ {
-		p[i] = p[i-1] * P
-		h[i] = h[i-1]*P + int64(x[i])
+	n, m = s.ReadInt(), s.ReadInt()
+	for i := 0; i < len(h); i++ {
+		h[i] = -1
 	}
-
 	for i := 0; i < m; i++ {
-		l1, r1, l2, r2 := s.ReadInt(), s.ReadInt(), s.ReadInt(), s.ReadInt()
-		if get(l1, r1) == get(l2, r2) {
-			fmt.Println("Yes")
-		} else {
-			fmt.Println("No")
+		a, b := s.ReadInt(), s.ReadInt()
+		add(a, b)
+		d[b]++
+	}
+	if topSort() {
+		for i := 0; i < n; i++ {
+			fmt.Print(q[i], " ")
 		}
+	} else {
+		fmt.Println(-1)
 	}
 }
 
-func get(l, r int) int64 {
-	return h[r] - h[l-1]*p[r-l+1]
+func add(a, b int) {
+	e[idx] = b
+	ne[idx] = h[a]
+	h[a] = idx
+	idx++
+}
+
+func topSort() bool {
+	hh := 0
+	tt := -1
+	for i := 1; i <= n; i++ {
+		if d[i] == 0 {
+			tt++
+			q[tt] = i
+		}
+	}
+	for hh <= tt {
+		t := q[hh]
+		hh++
+		for i := h[t]; i != -1; i = ne[i] {
+			j := e[i]
+			d[j]--
+			if d[j] == 0 {
+				tt++
+				q[tt] = j
+			}
+		}
+	}
+	return tt == n-1
 }
 
 /*
