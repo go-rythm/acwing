@@ -7,64 +7,62 @@ import (
 	"strconv"
 )
 
-const N = int(1e5 + 10)
+const (
+	N   = 510
+	inf = 0x3f3f3f3f
+)
 
 var (
-	n, m     int
-	h, e, ne [N]int
-	idx      int
-	q, d     [N]int
+	g    [N][N]int
+	dist [N]int
+	st   [N]bool
+
+	n, m int
 )
+
+func dijkstra() int {
+	for i := 0; i < len(dist); i++ {
+		dist[i] = inf
+	}
+	dist[1] = 0
+
+	for i := 0; i < n; i++ {
+		t := -1
+
+		for j := 1; j <= n; j++ {
+			if !st[j] && (t == -1 || dist[t] > dist[j]) {
+				t = j
+			}
+		}
+
+		st[t] = true
+
+		for j := 1; j <= n; j++ {
+			dist[j] = Min(dist[j], dist[t]+g[t][j])
+		}
+	}
+
+	if dist[n] == inf {
+		return -1
+	}
+	return dist[n]
+}
 
 func main() {
 	s := NewScanner()
 	n, m = s.ReadInt(), s.ReadInt()
-	for i := 0; i < len(h); i++ {
-		h[i] = -1
+	for i := 0; i < len(g); i++ {
+		for j := 0; j < len(g[i]); j++ {
+			g[i][j] = inf
+		}
 	}
+
 	for i := 0; i < m; i++ {
-		a, b := s.ReadInt(), s.ReadInt()
-		add(a, b)
-		d[b]++
+		x, y, z := s.ReadInt(), s.ReadInt(), s.ReadInt()
+		g[x][y] = Min(g[x][y], z)
 	}
-	if topSort() {
-		for i := 0; i < n; i++ {
-			fmt.Print(q[i], " ")
-		}
-	} else {
-		fmt.Println(-1)
-	}
-}
 
-func add(a, b int) {
-	e[idx] = b
-	ne[idx] = h[a]
-	h[a] = idx
-	idx++
-}
-
-func topSort() bool {
-	hh := 0
-	tt := -1
-	for i := 1; i <= n; i++ {
-		if d[i] == 0 {
-			tt++
-			q[tt] = i
-		}
-	}
-	for hh <= tt {
-		t := q[hh]
-		hh++
-		for i := h[t]; i != -1; i = ne[i] {
-			j := e[i]
-			d[j]--
-			if d[j] == 0 {
-				tt++
-				q[tt] = j
-			}
-		}
-	}
-	return tt == n-1
+	fmt.Println(dijkstra())
 }
 
 /*
