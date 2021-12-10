@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 48/459
+**acwing.com solutions in golang** 49/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -67,7 +67,7 @@
 | 0847 | 图中点的层次 | [Go](problems/0847) | 基础 | 0846 | 队列 | 搜索与图论-BFS |
 | 0848 | 有向图的拓扑序列 | [Go](problems/0848) | 基础 | 0847 | 树的存储，队列 | 搜索与图论-拓扑排序 |
 | 0849 | Dijkstra求最短路I | [Go](problems/0849) | 基础 | 0848 | 图的存储，贪心 | 搜索与图论-Dijkstra |
-| 0850 | Dijkstra求最短路II | [Go](problems/0850) | 基础 |  |  |  |
+| 0850 | Dijkstra求最短路II | [Go](problems/0850) | 基础 | 0849 | 堆 | 搜索与图论-Dijkstra |
 | 0851 | spfa求最短路 | [Go](problems/0851) | 基础 |  |  |  |
 | 0852 | spfa判断负环 | [Go](problems/0852) | 基础 |  |  |  |
 | 0853 | 有边数限制的最短路 | [Go](problems/0853) | 基础 |  |  |  |
