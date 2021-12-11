@@ -4,7 +4,7 @@
 [![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
-**acwing.com solutions in golang** 49/459
+**acwing.com solutions in golang** 50/459
 
 > 推荐安装 [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 以获得最佳的观看体验
 
@@ -70,7 +70,7 @@
 | 0850 | Dijkstra求最短路II | [Go](problems/0850) | 基础 | 0849 | 堆 | 搜索与图论-Dijkstra |
 | 0851 | spfa求最短路 | [Go](problems/0851) | 基础 |  |  |  |
 | 0852 | spfa判断负环 | [Go](problems/0852) | 基础 |  |  |  |
-| 0853 | 有边数限制的最短路 | [Go](problems/0853) | 基础 |  |  |  |
+| 0853 | 有边数限制的最短路 | [Go](problems/0853) | 基础 | 0850 | 语法 | 搜索与图论-BellmanFord |
 | 0854 | Floyd求最短路 | [Go](problems/0854) | 基础 |  |  |  |
 | 0858 | Prim算法求最小生成树 | [Go](problems/0858) | 基础 |  |  |  |
 | 0859 | Kruskal算法求最小生成树 | [Go](problems/0859) | 基础 |  |  |  |
