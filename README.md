@@ -70,7 +70,7 @@
 | 0850 | Dijkstra求最短路II | [Go](problems/0850) | 基础 | 0849 | 堆 | 搜索与图论-Dijkstra |
 | 0851 | spfa求最短路 | [Go](problems/0851) | 基础 |  |  |  |
 | 0852 | spfa判断负环 | [Go](problems/0852) | 基础 |  |  |  |
-| 0853 | 有边数限制的最短路 | [Go](problems/0853) | 基础 | 0850 | 语法 | 搜索与图论-BellmanFord |
+| 0853 | 有边数限制的最短路 | [Go](problems/0853) | 基础 | 0850 | 语法 | 搜索与图论-BF |
 | 0854 | Floyd求最短路 | [Go](problems/0854) | 基础 |  |  |  |
 | 0858 | Prim算法求最小生成树 | [Go](problems/0858) | 基础 |  |  |  |
 | 0859 | Kruskal算法求最小生成树 | [Go](problems/0859) | 基础 |  |  |  |
