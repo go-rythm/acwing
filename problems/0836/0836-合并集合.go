@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/luxcgo/go-acwing/internal/oj"
+	"github.com/go-rythm/acwing/internal/oj"
 )
 
 const N = 100010

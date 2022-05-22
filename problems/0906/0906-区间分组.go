@@ -7,7 +7,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/luxcgo/go-acwing/internal/oj"
+	"github.com/go-rythm/acwing/internal/oj"
 )
 
 type pair struct {

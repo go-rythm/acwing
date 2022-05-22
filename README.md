@@ -1,7 +1,7 @@
 # go-acwing
 
-[![GoDoc](https://img.shields.io/badge/GoDoc-Reference-blue?style=for-the-badge&logo=go)](https://pkg.go.dev/github.com/luxcgo/go-acwing?tab=doc)
-[![GoReport](https://goreportcard.com/badge/github.com/luxcgo/go-acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/luxcgo/go-acwing)
+[![GoDoc](https://img.shields.io/badge/GoDoc-Reference-blue?style=for-the-badge&logo=go)](https://pkg.go.dev/github.com/go-rythm/acwing?tab=doc)
+[![GoReport](https://goreportcard.com/badge/github.com/go-rythm/acwing?style=for-the-badge)](https://goreportcard.com/report/github.com/go-rythm/acwing)
 [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/go-ini/ini)
 
 **acwing.com solutions in golang** 50/459

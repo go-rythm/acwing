@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/luxcgo/go-acwing/internal/oj"
+	"github.com/go-rythm/acwing/internal/oj"
 )
 
 const N = 3e5 + 10
