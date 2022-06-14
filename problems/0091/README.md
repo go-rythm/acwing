@@ -51,7 +51,7 @@ $0 \\le a[i,j] \\le 10^7$
 
 #### 题目分析
 
-![哈密顿路径](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E5%93%88%E5%AF%86%E9%A1%BF%E8%B7%AF%E5%BE%84.png)
+![哈密顿路径](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E5%93%88%E5%AF%86%E9%A1%BF%E8%B7%AF%E5%BE%84.png)
 
 Q: f[i, j] 是个啥？
 A: i 表示路径，j 表示终点，f 表示路径是 i 终点是 j 的最小值

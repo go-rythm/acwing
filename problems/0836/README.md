@@ -76,4 +76,4 @@ Yes
 
 #### 算法图示
 
-![disjoint](https://gitee.com/luxcgo/imgs4md/raw/master/img/disjoint.png)
+![disjoint](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/disjoint.png)

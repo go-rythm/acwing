@@ -78,4 +78,4 @@ IR 2 2
 * l 存储节点的左指针
 * r 存储节点的右指针
 
- ![双链表](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E5%8F%8C%E9%93%BE%E8%A1%A8.png)
+ ![双链表](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E5%8F%8C%E9%93%BE%E8%A1%A8.png)

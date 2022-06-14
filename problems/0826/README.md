@@ -79,4 +79,4 @@ D 6
 
 整个链表从下标为 0 开始
 
- ![单链表](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E5%8D%95%E9%93%BE%E8%A1%A8.png)
+ ![单链表](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E5%8D%95%E9%93%BE%E8%A1%A8.png)

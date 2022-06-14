@@ -47,7 +47,7 @@ $-10^9 \\le 数列中的数 \\le 10^9$
 
 动态规划的解题思路，难点在状态的分解
 
-![子序列I](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E5%AD%90%E5%BA%8F%E5%88%97I.png)
+![子序列I](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E5%AD%90%E5%BA%8F%E5%88%97I.png)
 
 集合的分解方法：**所有以第 i 个数结尾的上升子序列，倒数第二个数是什么**
 

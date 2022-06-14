@@ -63,7 +63,7 @@ $1 \\le N,M \\le 11$
 
 #### 题目分析
 
-#### ![蒙德里安](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E8%92%99%E5%BE%B7%E9%87%8C%E5%AE%89.png)
+#### ![蒙德里安](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E8%92%99%E5%BE%B7%E9%87%8C%E5%AE%89.png)
 
 八字箴言：**化零为整，化整为零**（即状态表示，状态计算）
 

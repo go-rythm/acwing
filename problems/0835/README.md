@@ -56,7 +56,7 @@ Q ab
 
 Trie树，取自`retrieval`，是一种以空间换时间，高效查找字符串集合的数据结构
 
-![trie](https://gitee.com/luxcgo/imgs4md/raw/master/img/trie.gif)
+![trie](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/trie.gif)
 
 可以通过邻接表存储整棵树，并在字符串结尾做一个标记表明是一条字符串。
 

@@ -57,7 +57,7 @@ $-10000 \\le 三角形中的整数 \\le 10000$
 
 本题较为经典，可直接套用动态规划的解题思想
 
-![数字三角形](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E6%95%B0%E5%AD%97%E4%B8%89%E8%A7%92%E5%BD%A2.png)
+![数字三角形](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E6%95%B0%E5%AD%97%E4%B8%89%E8%A7%92%E5%BD%A2.png)
 
 #### 实现细节
 

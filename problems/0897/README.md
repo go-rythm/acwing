@@ -46,7 +46,7 @@ abedc
 
 #### 题目分析
 
-![最长seq](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E6%9C%80%E9%95%BFseq.png)
+![最长seq](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E6%9C%80%E9%95%BFseq.png)
 
 本题的状态表示和集合划分还是比较难想，积累经验值~
 

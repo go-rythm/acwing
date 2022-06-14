@@ -55,7 +55,7 @@ $1 \\le N \\le 300$
 
 属性：合并的最小代价
 
-![石子合并](https://gitee.com/luxcgo/imgs4md/raw/master/img/%E7%9F%B3%E5%AD%90%E5%90%88%E5%B9%B6.png)
+![石子合并](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E7%9F%B3%E5%AD%90%E5%90%88%E5%B9%B6.png)
 
 #### 实现细节
 

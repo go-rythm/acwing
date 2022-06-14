@@ -67,7 +67,7 @@ Q...
 
 如何确定主对角线和副对角线的下标位置？
 
- <img src="https://gitee.com/luxcgo/imgs4md/raw/master/img/%E5%85%AB%E7%9A%87%E5%90%8E.png" alt="八皇后" style="zoom:80%;" />
+ <img src="https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/%E5%85%AB%E7%9A%87%E5%90%8E.png" alt="八皇后" style="zoom:80%;" />
 
 n: 输入
 

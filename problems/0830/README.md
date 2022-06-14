@@ -55,4 +55,4 @@ $1 \\le 数列中元素 \\le 10^9$
 
 栈顶指向0时定义为栈空
 
- ![st](https://gitee.com/luxcgo/imgs4md/raw/master/img/st.png)
+ ![st](https://raw.githubusercontent.com/luxcgo/imgs4md/master/img/st.png)
